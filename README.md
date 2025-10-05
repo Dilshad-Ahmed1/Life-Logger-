@@ -37,24 +37,24 @@ SoundFile / librosa – for audio file handling.
 
 Install Python packages using pip:
 
-# Core web app
+ Core web app
 pip install streamlit
 
-# Audio transcription
+ Audio transcription
 pip install openai-whisper
 pip install torch --index-url https://download.pytorch.org/whl/cu118  # GPU optional
 
-# QA module
+ QA module
 pip install transformers
 pip install sentence-transformers
 
-# Audio handling
+ Audio handling
 pip install librosa soundfile numpy
 
-# Optional (for temp files)
+ Optional (for temp files)
 pip install pathlib
 
-Running the App
+# Running the App
 
 Clone the repository:
 
@@ -71,7 +71,7 @@ Open the browser at the URL shown in the terminal.
 
 Upload an audio file and interact with the app.
 
-Notes
+# Notes
 
 Only audio upload is supported in this version. Browser recording requires streamlit-webrtc integration (added in later versions).
 
@@ -88,4 +88,5 @@ Beautified and colorful UI.
 Speaker diarization using WhisperX.
 
 Real-time conversation history updates.
+
 
