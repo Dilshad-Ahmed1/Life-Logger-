@@ -5,7 +5,7 @@ A Streamlit-based web app to upload audio, transcribe it, extract tasks/reminder
 
 
 
-Features 
+# Features 
 
 Upload audio files (.wav, .mp3, .m4a, .flac).
 
@@ -17,7 +17,7 @@ Store conversation history.
 
 Ask questions about uploaded audio using QA module.
 
-Tech Stack
+# Tech Stack
 
 Python 3.10+
 
@@ -33,7 +33,7 @@ PyTorch – required for Whisper and Transformers models.
 
 SoundFile / librosa – for audio file handling.
 
-Dependencies
+# Dependencies
 
 Install Python packages using pip:
 
@@ -88,3 +88,4 @@ Beautified and colorful UI.
 Speaker diarization using WhisperX.
 
 Real-time conversation history updates.
+
